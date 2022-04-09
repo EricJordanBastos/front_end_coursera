@@ -1,12 +1,13 @@
 * {
   box-sizing: border-box;
-  font-family: Garamond, serif;
+  font-family: 'Comic Sans MS', serif;
 
 }
 
 body {
     display: block;
-    margin: 8px;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
@@ -19,12 +20,16 @@ body {
     margin: 8px;
 }
 
+.box{
+  border: 3px solid black;
+}
 div {
-	background-color: darkgray;
-	border: 3px solid white;
+	display: block;
+  background-color: darkgray;
+
+  border: 3px solid white;
 	position: relative;
 	height: 10em;
-	box-sizing:  ;
 }
 
 span {
@@ -47,7 +52,7 @@ p {
   margin-right: auto;
   margin-left: auto;
   color: black;
-  font-weight: bold;
+  
   position: relative;
   right: 0px;
   top: 30px;
@@ -77,7 +82,7 @@ h1 {
     width: 33.33%;
   }
   div {
-	height: 13em;
+	height: 15em;
 	}
 }
 
@@ -88,12 +93,15 @@ h1 {
   }
   .col-md-6 {
     width: 50%;
+    margin-bottom: 12px;
   }
   .col-md-12 {
     width: 100%;
   }
-	div {
-	height: 12em;
+
+
+  div {
+	height: 15em;
 	}
 	div.col-md-12 {
 	height: 8em;
@@ -104,6 +112,13 @@ h1 {
 @media (max-width: 767px) {
   .col-sm-12 {
     float: left;
+  }
+  .cell{
+    margin-bottom: 12px;
+    height: 12em; 
+  }
+  .box{
+    height: 12em; 
   }
   .col-sm-12 {
     clear: both;
