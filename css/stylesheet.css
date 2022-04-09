@@ -84,6 +84,7 @@ h1 {
   div {
 	height: 15em;
 	}
+  section{margin-top: 300px; font-size: 1.2em;}
 }
 
 /********** Tablet view devices **********/
@@ -97,9 +98,10 @@ h1 {
   }
   .col-md-12 {
     width: 100%;
+    clear: both;
   }
 
-
+  section{margin-top: 580px; font-size: 1.2em;}
   div {
 	height: 15em;
 	}
@@ -120,8 +122,10 @@ h1 {
   .box{
     height: 12em; 
   }
+  section{margin-top: 20px; font-size: 1.2em;}
   .col-sm-12 {
     clear: both;
     width: 100%;
+
   }
 }
