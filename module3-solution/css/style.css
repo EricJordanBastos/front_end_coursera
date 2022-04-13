@@ -102,3 +102,20 @@ h2{
 ul#nav-list>li:hover, ul#nav-list>li:active{
     background: lightblue;
 }
+footer{
+    margin-top: 20px;
+    border: 10px solid black;
+}
+footer>div{
+    background: black;
+    color: white;
+    font-size: 22px;
+}
+footer>div>a{
+    font-size: 22px;
+    text-decoration: underline;   
+}
+#link_menu:link{
+    color: blue;
+    text-decoration: underline;
+}
