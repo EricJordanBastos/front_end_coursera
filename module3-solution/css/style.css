@@ -1,0 +1,121 @@
+/* ENTIRE WEBPAGE */
+*{
+    font-family: 'Comic Sans MS','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+/* HEADER */
+header .container-fluid{
+    padding: 0;
+}
+
+.navbar{
+    background-color: darkgrey;
+    margin: 0;
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 3px solid black;
+}
+
+div a h1{
+    margin-right: auto;
+    margin-left: 8px !important; 
+    margin-top: -8px;
+    margin-bottom: 0;
+    width: 100%;
+    font-size: 2em;
+    font-weight: 600;
+    background-color: darkgrey;
+    border-bottom: 8px;
+    color: black !important;
+}
+
+a.navbar-brand h1:hover{
+    font-weight: 600;
+    text-shadow: 1px 1px 2px black;
+}
+
+div#toggle-items{
+    border: 4px !important;
+}
+
+ul#nav-list{
+    background-color: white;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    margin-top:0px ;
+    margin-bottom:0px;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    border-bottom: 0px solid black;
+    padding: 0 !important;
+}
+
+ul#nav-list li a{
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.navbar-collapse{
+    border-top: 0;
+}
+
+#botao{
+    clear: both;
+    margin-top: -35px;
+    margin-right: 25px;
+}
+
+@media (max-width: 767px){
+ div a h1{
+    margin-right: 0;
+    margin-left: 10px !important; 
+    margin-top: -5px;
+ }   
+}
+
+h2{
+    font-size: 2.5em;
+    color: black;
+    margin-bottom: 20px ;
+}
+
+.texto{
+    background: darkgrey;
+    border: 4px solid white;
+}
+.texto div{
+    text-align: justify;
+    color: black;
+}
+.texto h3{
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin-top: 15px;
+}
+
+ul#nav-list>li:hover, ul#nav-list>li:active{
+    background: lightblue;
+}
+footer{
+    margin-top: 20px;
+    border: 10px solid black;
+}
+footer>div{
+    background: black;
+    color: white;
+    font-size: 22px;
+}
+footer>div>a{
+    font-size: 22px;
+    text-decoration: underline;   
+}
+#link_menu:link{
+    color: blue;
+    text-decoration: underline;
+}
